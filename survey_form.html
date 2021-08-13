@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="generator" content="CoffeeCup HTML Editor (www.coffeecup.com)">
+    <meta name="dcterms.created" content="Mon, 03 May 2021 03:24:14 GMT">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>SurveyForm</title>
+      <style type="text/css">
+			  
+				body{
+				
+				
+				  background-color:#6E6EA6;
+            height:100%; 
+					  }
+				
+				#title{
+				
+				  text-align:center;
+          font-family:sans-serif;
+					color:white;
+				   }
+					 
+				#description{
+				  
+					text-align:center;
+          font-family:sans-serif;
+          font-family:cursive;
+					color:white;
+					
+				   }	 
+			
+			  #survey-form{
+				  width:650px;
+				  text-align:center;
+					
+          background-color:#282847;
+          border-radius:5px;
+					margin:0 auto;
+				   }
+			  
+				#name{
+				  width:550px;
+          margin-top:0px;
+          height:40px;
+          border-radius:6px;
+				   }
+					 
+					 
+					 
+				#email{
+				  width:550px;
+         
+          height:40px;
+          border-radius:6px;
+				
+				   }
+					 
+					 
+			  #number{
+				  width:550px;
+          
+          height:40px;
+          border-radius:6px;
+				
+				
+				   }
+
+				#name-label{
+				  color:white;
+          margin-top:45px;
+          float:left;
+					width:145px;
+					font-size:20px;
+          font-family:sans-serif;	
+				   }
+					 
+				#email-label{
+				  color:white;
+          margin-top:65px;
+          float:left;
+					width:145px;
+				  font-size:20px;
+          font-family:sans-serif;	
+				   }	
+					 
+				 #number-label{
+				  color:white;
+          margin-top:65px;
+          float:left;
+					width:125px;
+				  font-size:20px;
+          font-family:sans-serif;	
+					margin-left:45px;
+				   }
+					 
+				#dropdown{
+				  width:550px;
+          height:40px;
+          border-radius:5px;
+				
+				   }
+					 
+				#submit{
+				  width:550px;
+					background-color:#09FF7C;
+					color:white;
+          height:45px;
+          border-radius:4px;
+					margin-top:25px;
+					
+				   }	
+					 
+				#textarea-label{
+				
+				  
+				
+				 }	
+				 
+			  #definitely{
+				
+				
+				   }	
+			  textarea{
+				  width:548px;
+		      height:125px;
+          border-radius:5px;
+					 }
+					 
+					 
+			  .label{
+				  color:white;
+          margin-top:65px;
+          float:left;
+					width:525px;
+				  font-size:20px;
+          font-family:sans-serif;	
+					  }
+						
+				.radiobtn{
+				  float:left;
+					margin-left:55px;
+					margin-top:8px;
+					  }
+			  
+				.radiodiv{
+				  margin-top:10px;
+				  float:left;
+					width:115px;
+          					
+					}
+					
+			  .radiodiv2{
+				  width:250px;
+					color:white;
+          float:left;
+					font-size:20px;
+          font-family:sans-serif;
+         
+					  }
+						
+						
+				.checkbox{
+				
+				  width:450px;
+					color:white;
+				  margin-top:50px;
+          display:inline-block;
+	        float:left; 
+						
+								 
+						}
+				
+				.checkbox1{
+				 
+				  width:650px;
+					color:white;
+				  margin-top:125px;
+					margin-bottom:75px;
+         
+						} 
+				.checkboxinput{
+				  width:50px;
+				  list-style:inside;
+          list-style-image:linear-gradient(to left bottom, red, blue);
+					} 
+			  .checkbox2{
+			   width:450px;
+			   float:left; 
+				 margin-left:35px;
+				 text-align:left;
+				 
+				 
+						
+								 }
+					
+			</style>
+			
+    <!--[if IE]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+	  <h1 id="title">SURVEY FORM</h1>
+		<p id="description">Thank you for completing the survey, used to help us improve the company</p>	
+		
+		<form id="survey-form">
+	    
+		
+			
+			<div>
+			<label for="name" id="name-label" class="label">Name</label>
+			</div>
+			<div>
+		  <input id="name" type="text" required placeholder="Enter your name"></input>
+			</div>
+			
+			<div>
+			<label for="email" id="email-label" class="label">Email</label>
+			</div>
+			<div>
+			<input id="email" required="flag" placeholder="Email" type="email"></input>
+			</div>
+			
+			<div>
+			<label for="number" id="number-label" class="label">Age (optional)</label>
+			</div>
+			<div>
+		  <input type="number" id="number" placeholder="Age" min="16" max="120"></input>
+			</div>
+			
+			<label class="label">Which option best describes your current role?</label>
+			<div>
+			<select id="dropdown">
+			  <option disabled selected value>Select current role</option>
+        <option value="student">Student</option>
+        <option value="job">Full Time Job</option>
+        <option value="learner">Full Time Learner</option>
+        <option value="preferNo">Prefer not to say</option>
+        <option value="other">Other</option>
+			
+			</select>
+			</div>
+			
+			
+			<div class="radiodiv2">
+			
+			<div><input id="definitely" class="radiodiv" type="radio" name="radiobtns" value="definitely">Definitely</input></div>
+			
+			
+			<div><input class="radiodiv" type="radio" name="radiobtns" value="maybe">Maybe</input></div>
+			
+			<div><input class="radiodiv" type="radio" name="radiobtns" value="not-sure">Not sure</input></div>
+			</div>
+			
+		
+			<div class="checkbox1" >
+			
+			<div class="checkbox2"><input class="checkboxinput" type="checkbox" value="front"/>Front-end Projects</div>
+		  <div class="checkbox2"><input class="checkboxinput" type="checkbox" value="back"/>Back-end Projects</div>
+			<div class="checkbox2"><input class="checkboxinput" type="checkbox" value="data"/>Data Visualizatioin</div>
+			<div class="checkbox2"><input class="checkboxinput" type="checkbox" value="challenges"/>Challenges</div>
+			<div class="checkbox2"><input class="checkboxinput" type="checkbox" value="open"/>Open Source Community</div>
+			<div class="checkbox2"><input class="checkboxinput" type="checkbox" value="gitter"/>Gitter help rooms</div>
+			<div class="checkbox2"><input class="checkboxinput" type="checkbox" value="rooms"/>Rooms</div>
+			</div>
+			
+			
+		  <div>
+			<textarea></textarea>
+			</div>
+			
+			<div><button id="submit" type="submit">Submit</button>
+			</div>
+			
+		</form>
+  </body>
+</html>

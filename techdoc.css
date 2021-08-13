@@ -1,0 +1,75 @@
+  
+	#main-doc{
+       color:red;
+       font-size:24px;
+       max-width:700px;
+       margin-top:25px;
+       margin-left:150px;
+       float:left;
+       } 
+       
+     #nav-bar{ 
+      
+       max-width:290px;
+       height:100%;
+       position:fixed;
+       overflow:hidden;
+       } 
+  
+     .nav-link{
+       margin-top:5px;
+       position:fixed;
+       height:350px;
+       }  
+     
+     #ul-navbar{
+      
+       position:fixed;
+       margin:0;
+       padding:0;
+      
+        }
+        
+
+#topic-header{
+        
+       
+        color:blue;
+       
+       
+        }
+
+     header{
+       font-size:18px;
+       margin-bottom:5px;
+        }
+             
+     .main-section{
+        }
+           
+       a{
+         text-decoration:none;
+         }
+       
+       a:hover{
+         color:red; 
+         text-decoration:underline; 
+         } 
+    
+      @media screen and (max-width:950px) {
+      
+      body{
+        background-color:lightblue;
+        
+         }
+       header{
+         color:red;
+          }   
+         
+        #main-doc{
+          color:blue;
+          font-family:News701 BT;
+          font-size:16px;
+        
+          }  
+        }

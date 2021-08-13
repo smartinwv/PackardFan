@@ -1,0 +1,168 @@
+body{
+  margin:0;
+     padding:0px;
+  
+  background-color:lightblue;
+  
+  
+   }
+   
+  #welcome-section{
+     background-color:gray;
+     padding:0px;
+     margin-top:125px;
+     width:100%;
+     border-radius:15px;
+     text-align:center;
+     height:100vh;
+     }
+    
+    h1{
+      font-size:125px;
+      margin-top:35px;
+      color:black;
+      font-family: 'Limelight', cursive;
+     }
+    
+    #projects{ 
+     }
+    
+  
+  a{
+    color:yellow; 
+     }
+  
+  #navbar{
+       display:block; 
+       position:fixed;
+       width:100%;
+       color:black;
+       background-color: #BE3144;
+       margin:0px;
+       padding:0px;
+     
+   
+       }
+  
+  
+  
+   ul {
+      list-style-type: none;
+      margin: 25px;
+      padding: 0;
+      overflow: hidden;
+      
+      float:right;
+      }
+  
+  li {
+        
+        float:left;
+        margin:0 15px;
+        font-size:25px;
+               
+        
+       }
+       
+   a {
+  
+     text-decoration:none;
+      }
+        
+     .projects-tile{
+       color:black;
+       width:100%;
+       margin:0 auto;
+       height:175px;
+       text-align:center;
+       border-radius:20px;
+       
+     }      
+      
+     #linka{ 
+       color:yellow;
+       
+      
+       
+     }
+     a:visited{
+     
+     yellow;
+      }
+     
+     #profile-link{
+     
+      }
+      
+     h1{
+     
+       color:black;
+        } 
+      
+     
+        
+        
+        
+        
+       #projects1{
+       width:90%;
+       display:flex;
+       height:50px;
+       border:2px solid red;
+       
+        } 
+      img {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+        width: 150px;
+        }
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}  
+        
+      div{
+        
+        height:850px;
+        background-color:blue;
+        width:98%;
+        margin:45px auto;
+        font-size:65px; 
+        color:white;
+        font-family: 'Lobster', cursive}   
+        
+        
+      @media screen and (max-width:900px)
+     { body 
+       {background-color:lightgreen; } 
+       
+       li{font-size:12px; 
+        font-family:Arial;
+        }
+       
+       h2{color:red;
+          font-size:12px;
+          font-family:arial black;
+          }
+          
+        div{background-color:red;
+            height:15px; 
+            color:yellow;
+            font-size:12px;
+            text-align:center;
+            border-radius:5px;
+            font-family:arial black;
+            margin:10px auto;
+            padding:0; 
+            
+            
+            }
+          #project1{
+          
+            height:10px; }   
+            
+        h1{
+          font-size:12px;
+           }    
+        } 
